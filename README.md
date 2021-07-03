@@ -10,3 +10,6 @@ But if loading robot from url, use the urdf file
 This also contains animation files for the sawyer in 'sawyer animations'. Simply pick the csv file and load it in.
 
 To create csv files from pkl files, input cd to the repo folder and type in: "python pklUnpacker.py [pkl file path]"
+User also must manually enter into the csv file "time,[jointname1],[jointname2],[jointname3]..." with jointnames being the joint names showing for the robot in the viewer.
+
+Also rmoo files can be loaded directly for the ur5 and other animation files of that type
