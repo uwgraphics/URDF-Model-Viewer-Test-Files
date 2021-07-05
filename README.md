@@ -13,3 +13,19 @@ To create csv files from pkl files, input cd to the repo folder and type in: "py
 User also must manually enter into the csv file "time,[jointname1],[jointname2],[jointname3]..." with jointnames being the joint names showing for the robot in the viewer.
 
 Also rmoo files can be loaded directly for the ur5 and other animation files of that type
+
+Quicklinks:
+
+Robot URDFS:
+ur5: https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/ur5_description/urdf/ur5.urdf
+sawyer: https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/sawyer_description/urdf/sawyer.urdf
+
+ur5 Animations:
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/ur5%20animations/ur5_relaxed_ik_ECA3.rmoo
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/ur5%20animations/ur5_rotations_relaxed_ik_ECA.rmoo
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/ur5%20animations/ur5_rotations_relaxed_ik_ECAA.rmoo
+
+sawyer Animations:
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/sawyer%20animations/6_toys_base_0.csv
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/sawyer%20animations/7_tracing_base_0.csv
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/sawyer%20animations/11_stirring_base_0.csv
