@@ -21,8 +21,8 @@ Robot URDFS:
 ur5: 
 https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/ur5_description/urdf/ur5.urdf
 
-sawyer: 
-https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/sawyer_description/urdf/sawyer.urdf
+sawyer (with gripper): 
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/sawyer_description/urdf/sawyer_gripper.urdf
 
 ur5 Animations:
 
