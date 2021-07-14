@@ -41,3 +41,11 @@ https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/s
 
 https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/sawyer%20animations/11_stirring_base_0.csv
 
+Scenes:
+
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/Kitchen_dynamic/urdf/Kitchen_dynamic.urdf
+
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/Kitchen_standard/urdf/Kitchen_standard.urdf
+
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/Kitchen_static/urdf/Kitchen_static.urdf
+
