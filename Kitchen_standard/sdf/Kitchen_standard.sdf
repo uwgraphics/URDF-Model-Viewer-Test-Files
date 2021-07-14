@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 1.0.1 "Capricious Choutengan" -->
+<sdf version="1.5">
+  <model name="Kitchen_standard">
+    <link name="root_standard">
+      <pose>-0.00875 -0.00141 0.94251 0 0 0</pose>
+      <inertial>
+        <mass>0.001</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+    </link>
+    <link name="refridge_root">
+      <pose>0.98978 2.90229 0.84876 0 0 -3.14159</pose>
+      <inertial>
+        <mass>120.0</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cube.000">
+        <pose>0 0 0 0 0 3.14159</pose>
+        <geometry>
+          <mesh>
+            <uri>model://Kitchen_standard/meshes/Cube.052.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="Cube">
+        <pose>2.384185791015625e-07 0.0 5.960464477539063e-08 3.524630524527481e-24 -3.5527141023169746e-15 3.141592502593994</pose>
+        <material>
+          <ambient>0.74096 0.7879 0.7879 1.0</ambient>
+          <diffuse>0.74096 0.7879 0.7879 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <mesh>
+            <uri>model://Kitchen_standard/meshes/Cube.050.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name="mug1_root">
+      <pose>0.89674 -0.43428 1.22451 0 0 0</pose>
+      <inertial>
+        <mass>0.001</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+    </link>
+    <link name="base_link">
+      <pose>0.89674 -0.43428 1.22451 0 0 0</pose>
+      <inertial>
+        <mass>0.2</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="mug_base.col">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://Kitchen_standard/meshes/Group1/mesh6/mesh6-geometry#mesh6-geometry.001.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="mug_base">
+        <pose>0.0 0.0 0.0 0.0 -0.0 1.94280749562343e-15</pose>
+        <material>
+          <ambient>0 0 0 0</ambient>
+          <diffuse>0 0 0.4 0</diffuse>
+          <specular>0.06667 0.06667 0.06667 1.0</specular>
+        </material>
+        <geometry>
+          <mesh>
+            <uri>model://Kitchen_standard/meshes/Group1/mesh6/mesh6-geometry#mesh6-geometry.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name="lid_link">
+      <pose>0.90233 -0.43311 1.22451 0 0 0</pose>
+      <inertial>
+        <mass>0.001</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="mug_lid.col">
+        <pose>-0.00559 -0.00117 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://Kitchen_standard/meshes/Union1/mesh32/mesh32-geometry#mesh32-geometry.001.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="mug_lid">
+        <pose>-0.005589604377746582 -0.0011678040027618408 0.0 -1.182610460297509e-16 -0.0 0.0</pose>
+        <material>
+          <ambient>0.04706 0.04706 0.04706 0</ambient>
+          <diffuse>0.04706 0.04706 0.04706 0</diffuse>
+          <specular>0.06667 0.06667 0.06667 1.0</specular>
+        </material>
+        <geometry>
+          <mesh>
+            <uri>model://Kitchen_standard/meshes/Union1/mesh32/mesh32-geometry#mesh32-geometry.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name="refridge_door2">
+      <pose>0.59969 2.51525 1.20409 0 0 0</pose>
+      <inertial>
+        <mass>0.001</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Plane.001.000">
+        <pose>0.01727 0.38288 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://Kitchen_standard/meshes/Plane.003.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="Plane.001">
+        <pose>0.01727348566055298 0.38288140296936035 0.0 -7.049262626776772e-24 3.563769637458968e-22 4.751692681654964e-22</pose>
+        <material>
+          <ambient>0.74096 0.7879 0.7879 1.0</ambient>
+          <diffuse>0.74096 0.7879 0.7879 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <mesh>
+            <uri>model://Kitchen_standard/meshes/Plane.001.dae</uri>
+            <scale>0.02785 0.43052 0.43052</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name="refridge_door1">
+      <pose>0.5989 2.51522 0.00893 0 0 0</pose>
+      <inertial>
+        <mass>0.001</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Plane.000">
+        <pose>0.01807 0.38291 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://Kitchen_standard/meshes/Plane.002.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="Plane">
+        <pose>0.018065333366394043 0.3829076290130615 1.862645149230957e-09 -2.3283064365386963e-10 1.187923170413741e-22 4.751692681654964e-22</pose>
+        <material>
+          <ambient>0.74096 0.7879 0.7879 1.0</ambient>
+          <diffuse>0.74096 0.7879 0.7879 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <mesh>
+            <uri>model://Kitchen_standard/meshes/Plane.dae</uri>
+            <scale>0.02785 0.43052 0.43052</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint type="fixed" name="joint_0">
+      <parent>base_link</parent>
+      <child>lid_link</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="fixed" name="joint_1">
+      <parent>mug1_root</parent>
+      <child>base_link</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="TODO" name="refridge_root">
+      <parent>root_standard</parent>
+      <child>refridge_root</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="fixed" name="mug1_root">
+      <parent>root_standard</parent>
+      <child>mug1_root</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="revolute" name="refridge_door1">
+      <parent>refridge_root</parent>
+      <child>refridge_door1</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1.0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>3.0</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint type="revolute" name="refridge_door2">
+      <parent>refridge_root</parent>
+      <child>refridge_door2</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1.0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>3.0</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
+      </axis>
+    </joint>
+  </model>
+</sdf>

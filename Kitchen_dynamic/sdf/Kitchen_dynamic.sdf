@@ -1,0 +1,494 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 1.0.1 "Capricious Choutengan" -->
+<sdf version="1.5">
+  <model name="Kitchen_dynamic">
+    <link name="soda_can.007">
+      <pose>-1.40662 0.63933 1.29284 0 0 0</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cylinder">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="Cylinder.007">
+        <pose>1.1920928955078125e-07 5.960464477539063e-08 0.0 0.0 -0.0 -2.9802322387695312e-08</pose>
+        <material>
+          <ambient>0.58515 0.62219 0.62219 1.0</ambient>
+          <diffuse>0.58515 0.62219 0.68398 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name="soda_can.009">
+      <pose>-1.28198 0.56922 1.29284 0 0 0</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cylinder">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="Cylinder.009">
+        <pose>1.1920928955078125e-07 0.0 -1.1920928955078125e-07 0.0 -0.0 0.0</pose>
+        <material>
+          <ambient>0.58515 0.62219 0.62219 1.0</ambient>
+          <diffuse>0.58515 0.62219 0.68398 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name="soda_can">
+      <pose>0.86525 0 1.17317 0 0 0</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cylinder">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="Cylinder">
+        <pose>-5.960464477539063e-08 0.0 -1.1920928955078125e-07 0.0 -0.0 0.0</pose>
+        <material>
+          <ambient>0.58515 0.62219 0.62219 1.0</ambient>
+          <diffuse>0.58515 0.62219 0.68398 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name="soda_can.006">
+      <pose>-1.35988 0.07068 1.29284 0 0 0</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cylinder">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="Cylinder.006">
+        <pose>0.0 0.0 -1.1920928955078125e-07 0.0 -0.0 0.0</pose>
+        <material>
+          <ambient>0.58515 0.62219 0.62219 1.0</ambient>
+          <diffuse>0.58515 0.62219 0.68398 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name="soda_can.003">
+      <pose>0.86922 -1.29444 1.29284 0 0 0</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cylinder">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="Cylinder.003">
+        <pose>0.0 0.0 0.0 -5.960464477539063e-08 -0.0 0.0</pose>
+        <material>
+          <ambient>0.58515 0.62219 0.62219 1.0</ambient>
+          <diffuse>0.58515 0.62219 0.68398 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name="root_dynamic">
+      <pose>0 0 1.0 0 0 0</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+    </link>
+    <link name="soda_can.010">
+      <pose>0.88357 0.70944 1.29284 -0.4839 0.24643 0.13641</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cylinder">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="Cylinder.010">
+        <pose>-1.1920928955078125e-07 7.450580596923828e-08 -2.384185791015625e-07 2.9802322387695312e-08 -1.4901162970204496e-08 -1.4901162970204496e-08</pose>
+        <material>
+          <ambient>0.58515 0.62219 0.62219 1.0</ambient>
+          <diffuse>0.58515 0.62219 0.68398 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name="soda_can.004">
+      <pose>-0.11352 -1.93908 1.29284 0 0 0</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cylinder">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="Cylinder.004">
+        <pose>-5.960464477539063e-08 0.0 -1.1920928955078125e-07 0.0 -0.0 0.0</pose>
+        <material>
+          <ambient>0.58515 0.62219 0.62219 1.0</ambient>
+          <diffuse>0.58515 0.62219 0.68398 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name="soda_can.008">
+      <pose>-1.39883 0.5147 1.29284 0 0 0</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cylinder">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="Cylinder.008">
+        <pose>0.0 0.0 -1.1920928955078125e-07 0.0 -0.0 0.0</pose>
+        <material>
+          <ambient>0.58515 0.62219 0.62219 1.0</ambient>
+          <diffuse>0.58515 0.62219 0.68398 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name="soda_can.002">
+      <pose>0.87823 -1.06453 1.29284 0 0 0</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cylinder">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="Cylinder.002">
+        <pose>-5.960464477539063e-08 0.0 -2.384185791015625e-07 0.0 -0.0 0.0</pose>
+        <material>
+          <ambient>0.58515 0.62219 0.62219 1.0</ambient>
+          <diffuse>0.58515 0.62219 0.68398 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name="soda_can.005">
+      <pose>-0.85354 -1.95466 1.29284 0 0 0</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cylinder">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="Cylinder.005">
+        <pose>-1.7881393432617188e-07 -1.1920928955078125e-07 0.0 0.0 -0.0 0.0</pose>
+        <material>
+          <ambient>0.58515 0.62219 0.62219 1.0</ambient>
+          <diffuse>0.58515 0.62219 0.68398 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name="soda_can.001">
+      <pose>0.75201 -1.16371 1.29284 0 0 0</pose>
+      <inertial>
+        <mass>0.384</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <collision name="Cylinder">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="Cylinder.001">
+        <pose>-1.7881393432617188e-07 1.1920928955078125e-07 -2.384185791015625e-07 7.705914839561956e-08 -0.0 0.0</pose>
+        <material>
+          <ambient>0.58515 0.62219 0.62219 1.0</ambient>
+          <diffuse>0.58515 0.62219 0.68398 1.0</diffuse>
+          <specular>0.5 0.5 0.5 1.0</specular>
+        </material>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.125</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <joint type="TODO" name="soda_can.007">
+      <parent>root_dynamic</parent>
+      <child>soda_can.007</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="TODO" name="soda_can.009">
+      <parent>root_dynamic</parent>
+      <child>soda_can.009</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="TODO" name="soda_can.004">
+      <parent>root_dynamic</parent>
+      <child>soda_can.004</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="TODO" name="soda_can.006">
+      <parent>root_dynamic</parent>
+      <child>soda_can.006</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="TODO" name="soda_can.008">
+      <parent>root_dynamic</parent>
+      <child>soda_can.008</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="TODO" name="soda_can.002">
+      <parent>root_dynamic</parent>
+      <child>soda_can.002</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="TODO" name="soda_can.005">
+      <parent>root_dynamic</parent>
+      <child>soda_can.005</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="TODO" name="soda_can.003">
+      <parent>root_dynamic</parent>
+      <child>soda_can.003</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="TODO" name="soda_can">
+      <parent>root_dynamic</parent>
+      <child>soda_can</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="TODO" name="soda_can.001">
+      <parent>root_dynamic</parent>
+      <child>soda_can.001</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint type="TODO" name="soda_can.010">
+      <parent>root_dynamic</parent>
+      <child>soda_can.010</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+  </model>
+</sdf>

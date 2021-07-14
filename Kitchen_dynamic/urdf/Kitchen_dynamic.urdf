@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 1.0.1 "Capricious Choutengan" -->
+  <robot name="Kitchen_dynamic">
+
+    <link name="root_dynamic">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+    </link>
+
+    <link name="soda_can">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+        <material name="soda_material"/>
+      </visual>
+      <collision name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="soda_can.001">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Cylinder.001">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+        <material name="soda_material"/>
+      </visual>
+      <collision name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="soda_can.002">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Cylinder.002">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+        <material name="soda_material"/>
+      </visual>
+      <collision name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="soda_can.003">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Cylinder.003">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+        <material name="soda_material"/>
+      </visual>
+      <collision name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="soda_can.004">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Cylinder.004">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+        <material name="soda_material"/>
+      </visual>
+      <collision name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="soda_can.005">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Cylinder.005">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+        <material name="soda_material"/>
+      </visual>
+      <collision name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="soda_can.006">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Cylinder.006">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+        <material name="soda_material"/>
+      </visual>
+      <collision name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="soda_can.007">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Cylinder.007">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+        <material name="soda_material"/>
+      </visual>
+      <collision name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="soda_can.008">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Cylinder.008">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+        <material name="soda_material"/>
+      </visual>
+      <collision name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="soda_can.009">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Cylinder.009">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+        <material name="soda_material"/>
+      </visual>
+      <collision name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="soda_can.010">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.384"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Cylinder.010">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+        <material name="soda_material"/>
+      </visual>
+      <collision name="Cylinder">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.03" length="0.125"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="soda_can" type="floating">
+      <origin xyz="0.86525 0 0.17317" rpy="0 0 0"/>
+      <parent link="root_dynamic"/>
+      <child link="soda_can"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <joint name="soda_can.001" type="floating">
+      <origin xyz="0.75201 -1.16371 0.29284" rpy="0 0 0"/>
+      <parent link="root_dynamic"/>
+      <child link="soda_can.001"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <joint name="soda_can.002" type="floating">
+      <origin xyz="0.87823 -1.06453 0.29284" rpy="0 0 0"/>
+      <parent link="root_dynamic"/>
+      <child link="soda_can.002"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <joint name="soda_can.003" type="floating">
+      <origin xyz="0.86922 -1.29444 0.29284" rpy="0 0 0"/>
+      <parent link="root_dynamic"/>
+      <child link="soda_can.003"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <joint name="soda_can.004" type="floating">
+      <origin xyz="-0.11352 -1.93908 0.29284" rpy="0 0 0"/>
+      <parent link="root_dynamic"/>
+      <child link="soda_can.004"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <joint name="soda_can.005" type="floating">
+      <origin xyz="-0.85354 -1.95466 0.29284" rpy="0 0 0"/>
+      <parent link="root_dynamic"/>
+      <child link="soda_can.005"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <joint name="soda_can.006" type="floating">
+      <origin xyz="-1.35988 0.07068 0.29284" rpy="0 0 0"/>
+      <parent link="root_dynamic"/>
+      <child link="soda_can.006"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <joint name="soda_can.007" type="floating">
+      <origin xyz="-1.40662 0.63933 0.29284" rpy="0 0 0"/>
+      <parent link="root_dynamic"/>
+      <child link="soda_can.007"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <joint name="soda_can.008" type="floating">
+      <origin xyz="-1.39883 0.5147 0.29284" rpy="0 0 0"/>
+      <parent link="root_dynamic"/>
+      <child link="soda_can.008"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <joint name="soda_can.009" type="floating">
+      <origin xyz="-1.28198 0.56922 0.29284" rpy="0 0 0"/>
+      <parent link="root_dynamic"/>
+      <child link="soda_can.009"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <joint name="soda_can.010" type="floating">
+      <origin xyz="0.88357 0.70944 0.29284" rpy="-0.4839 0.24643 0.13641"/>
+      <parent link="root_dynamic"/>
+      <child link="soda_can.010"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <material name="soda_material">
+      <color rgba="0.58515 0.62219 0.68398 1.0"/>
+    </material>
+
+  </robot>
