@@ -1,0 +1,107 @@
+{
+    "robotFiles": [
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/ur5_description/urdf/ur5.urdf",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/Kitchen_static/urdf/Kitchen_static.urdf",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/sawyer_description/urdf/sawyer_gripper.urdf",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/Kitchen_standard/urdf/Kitchen_standard.urdf"
+    ],
+    "animationURLs": [
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/ur5 animations/ur5_relaxed_ik_ECA3.rmoo",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/ur5 animations/ur5_rotations_relaxed_ik_ECA.rmoo",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/ur5 animations/ur5_rotations_relaxed_ik_ECAA.rmoo",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/sawyer animations/6_toys_base_0.csv",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/sawyer animations/7_tracing_base_0.csv",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/sawyer animations/11_stirring_base_0.csv"
+    ],
+    "animationMap": [
+        3,
+        0,
+        3,
+        0
+    ],
+    "configs": [
+        1,
+        0.86,
+        0.91,
+        1.76,
+        0,
+        0,
+        0,
+        3.14159265,
+        -0.376991118,
+        -1.193805207,
+        -1.570796325,
+        -1.570796325,
+        -1.570796325,
+        1,
+        0,
+        -0.09,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.61,
+        -1.32,
+        0.98,
+        -0.47,
+        0,
+        0.84,
+        0,
+        0.8296816,
+        0.0001584,
+        0.6798278,
+        -0.8884392,
+        1.4854232,
+        -2.1308876,
+        1.2142488,
+        2.6295192,
+        0,
+        1,
+        0,
+        0.87,
+        0,
+        0,
+        0,
+        0,
+        1.545,
+        2.103,
+        0
+    ],
+    "configsMap": [
+        13,
+        8,
+        16,
+        10
+    ],
+    "robotSettings": [
+        [
+            true,
+            true,
+            "1",
+            true,
+            "ee_link"
+        ],
+        [
+            true,
+            false,
+            "1",
+            false,
+            "countertop1_link"
+        ],
+        [
+            true,
+            true,
+            "1",
+            true,
+            "right_hand"
+        ],
+        [
+            true,
+            false,
+            "1",
+            true,
+            "joint_0"
+        ]
+    ]
+}
