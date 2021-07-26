@@ -54,3 +54,5 @@ JSON files:
 
 https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/scenes/sample%20scene.json
 
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/scenes/single%20robot.json
+
