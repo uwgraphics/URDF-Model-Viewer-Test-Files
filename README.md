@@ -49,3 +49,8 @@ https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/K
 
 https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/Kitchen_static/urdf/Kitchen_static.urdf
 
+
+JSON files:
+
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/scenes/sample%20scene.json
+
