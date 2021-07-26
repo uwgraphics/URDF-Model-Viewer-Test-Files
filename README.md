@@ -52,5 +52,5 @@ https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/K
 
 JSON files:
 
-https://github.com/gjnguyen18/URDF-Model-Viewer-Test-Files/blob/main/scenes/sample%20scene.json
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/scenes/sample%20scene.json
 
