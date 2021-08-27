@@ -56,3 +56,6 @@ https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/s
 
 https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/scenes/single%20robot.json
 
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/scenes/robots%20with%20lines.json
+
+
