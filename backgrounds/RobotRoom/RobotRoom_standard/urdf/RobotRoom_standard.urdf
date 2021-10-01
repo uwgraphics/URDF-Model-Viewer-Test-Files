@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 1.0.1 "Capricious Choutengan" -->
+  <robot name="RobotRoom_standard">
+
+    <link name="BookShelf_Tall_root">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="25.0"/>
+        <inertia ixx="21.10664" ixy="2e-05" ixz="1e-05" iyy="21.32676" iyz="0.03016" izz="0.71132"/>
+      </inertial>
+      <visual name="BookShelf_Tall">
+        <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/uploads_files_1909718_Bookcase_WoodenBlackandBrown.dae" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Metal"/>
+      </visual>
+      <collision name="BookShelf_Tall.000">
+        <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/uploads_files_1909718_Bookcase_WoodenBlackandBrown.001.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="OfficeDesk_root">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="50.0"/>
+        <inertia ixx="13.47679" ixy="-0.01406" ixz="-0.00505" iyy="21.06994" iyz="-0.91812" izz="9.64373"/>
+      </inertial>
+      <visual name="OfficeDesk">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/OfficeDeskMesh.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+        <material name="Material.002"/>
+      </visual>
+      <collision name="OfficeDesk.col">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/OfficeDeskMesh.002.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="OfficeDesk_root.001">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="50.0"/>
+        <inertia ixx="13.47679" ixy="-0.01406" ixz="-0.00505" iyy="21.06994" iyz="-0.91812" izz="9.64373"/>
+      </inertial>
+      <visual name="OfficeDesk.001">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/OfficeDeskMesh.003.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+        <material name="Material.002"/>
+      </visual>
+      <collision name="OfficeDesk.col.001">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/OfficeDeskMesh.001.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="RobotRoom_standard">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+    </link>
+
+    <link name="SimpleTable_root">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="60.0"/>
+        <inertia ixx="24.7636" ixy="0.2899" ixz="-0.00996" iyy="18.82603" iyz="0.54268" izz="11.70922"/>
+      </inertial>
+      <visual name="SimpleTable">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/Plane.011.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+        <material name="abciuppa_w_node"/>
+      </visual>
+      <collision name="SimpleTable.col">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/Plane.000.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="SimpleTable_root.001">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="60.0"/>
+        <inertia ixx="24.7636" ixy="0.2899" ixz="-0.00996" iyy="18.82603" iyz="0.54268" izz="11.70922"/>
+      </inertial>
+      <visual name="SimpleTable.001">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/Plane.002.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+        <material name="abciuppa_w_node"/>
+      </visual>
+      <collision name="SimpleTable.col.001">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/Plane.001.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="root_Short_Table">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="13.0"/>
+        <inertia ixx="1.21708" ixy="0" ixz="0" iyy="1.21708" iyz="0" izz="0.90797"/>
+      </inertial>
+      <visual name="Short_Table">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/Cube.012.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+        <material name="Material.004"/>
+      </visual>
+      <collision name="Short_Table.000">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://RobotRoom_standard/meshes/dae/Cube.011.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="BookShelf_Tall_root" type="floating">
+      <origin xyz="-2.30382 -2.23733 0" rpy="0 0 -1.5708"/>
+      <parent link="RobotRoom_standard"/>
+      <child link="BookShelf_Tall_root"/>
+    </joint>
+
+    <joint name="OfficeDesk_root" type="floating">
+      <origin xyz="-2.32431 -0.55681 0" rpy="0 0 1.5708"/>
+      <parent link="RobotRoom_standard"/>
+      <child link="OfficeDesk_root"/>
+    </joint>
+
+    <joint name="OfficeDesk_root.001" type="floating">
+      <origin xyz="1.633 -2.25061 0" rpy="0 0 -3.14159"/>
+      <parent link="RobotRoom_standard"/>
+      <child link="OfficeDesk_root.001"/>
+    </joint>
+
+    <joint name="SimpleTable_root" type="floating">
+      <origin xyz="2.16171 0.96655 0" rpy="0 0 0"/>
+      <parent link="RobotRoom_standard"/>
+      <child link="SimpleTable_root"/>
+    </joint>
+
+    <joint name="SimpleTable_root.001" type="floating">
+      <origin xyz="0.77031 2.01027 0" rpy="0 0 1.5708"/>
+      <parent link="RobotRoom_standard"/>
+      <child link="SimpleTable_root.001"/>
+    </joint>
+
+    <joint name="root_Short_Table" type="floating">
+      <origin xyz="-1.78256 2.11576 0" rpy="0 0 0"/>
+      <parent link="RobotRoom_standard"/>
+      <child link="root_Short_Table"/>
+    </joint>
+
+    <material name="Material.002">
+      <color rgba="0.39754 0.39754 0.39754 1.0"/>
+    </material>
+
+    <material name="Material.004">
+      <color rgba="0.64 0.64 0.64 1.0"/>
+    </material>
+
+    <material name="Metal">
+      <color rgba="0.02328 0.02328 0.02328 1.0"/>
+    </material>
+
+    <material name="abciuppa_w_node">
+      <color rgba="0.21404 0.21404 0.21404 1.0"/>
+    </material>
+
+  </robot>
