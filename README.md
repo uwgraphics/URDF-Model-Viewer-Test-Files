@@ -52,10 +52,8 @@ https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/K
 
 JSON files:
 
-https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/scenes/kitchen%20with%20two%20robots.json
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/scenes/full%20kitchen.json
 
-https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/scenes/single%20robot.json
-
-https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/scenes/robots%20with%20lines.json
+https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/scenes/simple%20kitchen%20with%202%20robots.json
 
 
