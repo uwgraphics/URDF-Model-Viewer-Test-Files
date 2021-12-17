@@ -1,0 +1,232 @@
+{
+    "robotFiles": [
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/collections/ur5%20and%20objects/objects/ur5_with_gripper_description/urdf/ur5_sawyer_gripper.urdf",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/collections/ur5%20and%20objects/objects/taskObject/urdf/taskObject1.urdf",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/collections/ur5%20and%20objects/objects/taskObject/urdf/taskObject1.urdf",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/collections/ur5%20and%20objects/objects/taskBin1/urdf/taskBin1.urdf",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/collections/ur5%20and%20objects/objects/taskTable1/urdf/taskTable1.urdf",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/collections/ur5%20and%20objects/objects/taskTable2/urdf/taskTable2.urdf"
+    ],
+    "animationURLs": [
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/collections/ur5%20and%20objects/working%20motions/robot_w_arm_out.csv",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/collections/ur5%20and%20objects/working%20motions/object1_out.csv",
+        "https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/collections/ur5%20and%20objects/working%20motions/object2_out.csv"
+    ],
+    "animationMap": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+    ],
+    "configs": [
+        1,
+        -0.5,
+        0.5,
+        0,
+        -0.001592653589793,
+        -0.001592653589793,
+        -0.001592653589793,
+        0,
+        0,
+        0,
+        -0.001592653589793,
+        -0.001592653589793,
+        -0.001592653589793,
+        2.8023006438,
+        -0.3518583768,
+        -1.8346901076,
+        -1.3069025424,
+        -1.2315043188,
+        -1.570796325,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -0.001592653589793,
+        -0.001592653589793,
+        -0.001592653589793,
+        0.06,
+        0.5,
+        0.19,
+        -3.14159265358979,
+        3.13840734641021,
+        -0.431592653589793,
+        1,
+        0,
+        0,
+        0,
+        -0.001592653589793,
+        -0.001592653589793,
+        -0.001592653589793,
+        0.13,
+        0.5,
+        -0.14,
+        -3.14159265358979,
+        -3.14159265358979,
+        0.348407346410207,
+        1,
+        -0.9279, 
+        0.03,
+        0.5089,
+        -0.001592653589793,
+        1.57840734641021,
+        -0.001592653589793,
+        0,
+        0,
+        0,
+        -0.001592653589793,
+        -0.001592653589793,
+        -0.001592653589793,
+        1,
+        -0.3,
+        0.009,
+        0.778,
+        -0.001592653589793,
+        -0.001592653589793,
+        -0.001592653589793,
+        0,
+        0,
+        0,
+        -0.001592653589793,
+        -0.001592653589793,
+        -0.001592653589793,
+        1,
+        0.1,
+        0.009,
+        0,
+        -0.001592653589793,
+        -0.001592653589793,
+        -0.001592653589793,
+        0,
+        0,
+        0,
+        -0.001592653589793,
+        -0.001592653589793,
+        -0.001592653589793
+    ],
+    "configsMap": [
+        20,
+        13,
+        13,
+        13,
+        13,
+        13
+    ],
+    "robotSettings": [
+        [
+            true,
+            true,
+            "1",
+            true,
+            "base_link_fixed"
+        ],
+        [
+            true,
+            true,
+            "1",
+            true,
+            "obj_root"
+        ],
+        [
+            true,
+            true,
+            "1",
+            true,
+            "obj_root"
+        ],
+        [
+            true,
+            true,
+            "1",
+            true,
+            "taskBin1_root"
+        ],
+        [
+            true,
+            true,
+            "1",
+            true,
+            "taskTable1_root"
+        ],
+        [
+            true,
+            true,
+            "1",
+            true,
+            "taskTable2_root"
+        ]
+    ],
+    "linesData": [],
+    "bookmarks": [
+        {
+            "robotName": "ur5_0",
+            "bookmarks": [
+                {
+                    "name": "robot_w_arm_out",
+                    "bookmarks": [],
+                    "cameraMarks": []
+                }
+            ]
+        },
+        {
+            "robotName": "taskObject_1",
+            "bookmarks": [
+                {
+                    "name": "object1_out",
+                    "bookmarks": [],
+                    "cameraMarks": []
+                }
+            ]
+        },
+        {
+            "robotName": "taskObject_2",
+            "bookmarks": [
+                {
+                    "name": "object2_out",
+                    "bookmarks": [],
+                    "cameraMarks": []
+                }
+            ]
+        },
+        {
+            "robotName": "taskBin1_3",
+            "bookmarks": []
+        },
+        {
+            "robotName": "taskTable1_4",
+            "bookmarks": []
+        },
+        {
+            "robotName": "taskTable2_5",
+            "bookmarks": []
+        }
+    ],
+    "cameraViews": [],
+    "generalSettings": {
+        "camera": {
+            "cameraPos": {
+                "x": -0.23648145697001957,
+                "y": 2.5472332750645457,
+                "z": -1.80502742090919
+            },
+            "cameraLookAt": {
+                "x": -0.28433236741487966,
+                "y": 1.259257027418932,
+                "z": -0.05549025851025158
+            },
+            "cameraZoom": 1
+        },
+        "tabStates": {
+            "top": true,
+            "bottom": true,
+            "left": true,
+            "right": true
+        },
+        "selectedRobot": "ur5_0",
+        "clickSelect": true
+    },
+    "viewOnly": false
+}
