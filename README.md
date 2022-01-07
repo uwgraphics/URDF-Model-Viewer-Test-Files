@@ -17,6 +17,8 @@ https://gjnguyen18.github.io/urdf-loader-test/?jsonLink=[INSERT_LINK_HERE]
 
 Quicklinks:
 
+https://gjnguyen18.github.io/urdf-loader-test/?jsonLink=https://raw.githubusercontent.com/gjnguyen18/URDF-Model-Viewer-Test-Files/main/json%20scenes/ur5_with_2_objects.json
+
 __Robot URDFS__
 
 ur5: 
